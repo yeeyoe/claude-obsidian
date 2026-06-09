@@ -1,0 +1,294 @@
+{
+	"nodes": [
+		{
+			"id": "hub-index",
+			"type": "file",
+			"file": "wiki/index.md",
+			"x": 0,
+			"y": 0,
+			"width": 260,
+			"height": 120,
+			"color": "1"
+		},
+		{
+			"id": "hub-hot",
+			"type": "file",
+			"file": "wiki/hot.md",
+			"x": -320,
+			"y": 0,
+			"width": 260,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "hub-overview",
+			"type": "file",
+			"file": "wiki/overview.md",
+			"x": 320,
+			"y": 0,
+			"width": 260,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "hub-log",
+			"type": "file",
+			"file": "wiki/log.md",
+			"x": 320,
+			"y": 140,
+			"width": 260,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "hub-dashboard",
+			"type": "file",
+			"file": "wiki/meta/dashboard.md",
+			"x": -320,
+			"y": 140,
+			"width": 260,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "hub-getting-started",
+			"type": "file",
+			"file": "wiki/getting-started.md",
+			"x": 0,
+			"y": 160,
+			"width": 260,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "domain-concepts",
+			"type": "file",
+			"file": "wiki/concepts/_index.md",
+			"x": -600,
+			"y": 320,
+			"width": 280,
+			"height": 140,
+			"color": "2"
+		},
+		{
+			"id": "concept-llm-wiki",
+			"type": "file",
+			"file": "wiki/concepts/LLM Wiki Pattern.md",
+			"x": -920,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "concept-compounding",
+			"type": "file",
+			"file": "wiki/concepts/Compounding Knowledge.md",
+			"x": -600,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "concept-hot-cache",
+			"type": "file",
+			"file": "wiki/concepts/Hot Cache.md",
+			"x": -280,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "concept-dragonscale",
+			"type": "file",
+			"file": "wiki/concepts/DragonScale Memory.md",
+			"x": -600,
+			"y": 660,
+			"width": 280,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "domain-entities",
+			"type": "file",
+			"file": "wiki/entities/_index.md",
+			"x": 0,
+			"y": 320,
+			"width": 280,
+			"height": 140,
+			"color": "3"
+		},
+		{
+			"id": "entity-karpathy",
+			"type": "file",
+			"file": "wiki/entities/Andrej Karpathy.md",
+			"x": 320,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "3"
+		},
+		{
+			"id": "entity-claude-seo",
+			"type": "file",
+			"file": "wiki/entities/Claude SEO.md",
+			"x": 0,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "3"
+		},
+		{
+			"id": "domain-comparisons",
+			"type": "file",
+			"file": "wiki/comparisons/Wiki vs RAG.md",
+			"x": -600,
+			"y": 840,
+			"width": 280,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"id": "domain-sources",
+			"type": "file",
+			"file": "wiki/sources/_index.md",
+			"x": 640,
+			"y": 320,
+			"width": 280,
+			"height": 140,
+			"color": "5"
+		},
+		{
+			"id": "source-ecosystem",
+			"type": "file",
+			"file": "wiki/sources/claude-obsidian-ecosystem-research.md",
+			"x": 640,
+			"y": 520,
+			"width": 280,
+			"height": 100,
+			"color": "5"
+		},
+		{
+			"id": "domain-questions",
+			"type": "file",
+			"file": "wiki/questions/How does the LLM Wiki pattern work.md",
+			"x": 320,
+			"y": 320,
+			"width": 280,
+			"height": 120,
+			"color": "6"
+		},
+		{
+			"id": "lint-report-latest",
+			"type": "file",
+			"file": "wiki/meta/lint-report-2026-06-08.md",
+			"x": -640,
+			"y": -200,
+			"width": 260,
+			"height": 100,
+			"color": "6"
+		}
+	],
+	"edges": [
+		{
+			"id": "e-index-concepts",
+			"fromNode": "hub-index",
+			"toNode": "domain-concepts",
+			"fromSide": "left",
+			"toSide": "top"
+		},
+		{
+			"id": "e-index-entities",
+			"fromNode": "hub-index",
+			"toNode": "domain-entities",
+			"fromSide": "right",
+			"toSide": "top"
+		},
+		{
+			"id": "e-index-sources",
+			"fromNode": "hub-index",
+			"toNode": "domain-sources",
+			"fromSide": "right",
+			"toSide": "top"
+		},
+		{
+			"id": "e-index-overview",
+			"fromNode": "hub-index",
+			"toNode": "hub-overview",
+			"fromSide": "right",
+			"toSide": "left"
+		},
+		{
+			"id": "e-index-hot",
+			"fromNode": "hub-index",
+			"toNode": "hub-hot",
+			"fromSide": "left",
+			"toSide": "right"
+		},
+		{
+			"id": "e-index-log",
+			"fromNode": "hub-index",
+			"toNode": "hub-log",
+			"fromSide": "bottom",
+			"toSide": "top"
+		},
+		{
+			"id": "e-index-dashboard",
+			"fromNode": "hub-index",
+			"toNode": "hub-dashboard",
+			"fromSide": "left",
+			"toSide": "right"
+		},
+		{
+			"id": "e-concepts-llmwiki",
+			"fromNode": "domain-concepts",
+			"toNode": "concept-llm-wiki",
+			"fromSide": "bottom",
+			"toSide": "top"
+		},
+		{
+			"id": "e-concepts-compound",
+			"fromNode": "domain-concepts",
+			"toNode": "concept-compounding",
+			"fromSide": "bottom",
+			"toSide": "top"
+		},
+		{
+			"id": "e-llmwiki-compound",
+			"fromNode": "concept-llm-wiki",
+			"toNode": "concept-compounding",
+			"fromSide": "right",
+			"toSide": "left"
+		},
+		{
+			"id": "e-llmwiki-karpathy",
+			"fromNode": "concept-llm-wiki",
+			"toNode": "entity-karpathy",
+			"fromSide": "bottom",
+			"toSide": "left"
+		},
+		{
+			"id": "e-entities-karpathy",
+			"fromNode": "domain-entities",
+			"toNode": "entity-karpathy",
+			"fromSide": "bottom",
+			"toSide": "top"
+		},
+		{
+			"id": "e-sources-ecosystem",
+			"fromNode": "domain-sources",
+			"toNode": "source-ecosystem",
+			"fromSide": "bottom",
+			"toSide": "top"
+		},
+		{
+			"id": "e-index-lint",
+			"fromNode": "hub-index",
+			"toNode": "lint-report-latest",
+			"fromSide": "top",
+			"toSide": "bottom"
+		}
+	]
+}

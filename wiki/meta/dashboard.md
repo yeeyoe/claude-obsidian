@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Dashboard"
-updated: 2026-04-08
+updated: 2026-06-08
 tags:
   - meta
   - dashboard
@@ -12,6 +12,7 @@ related:
   - "[[log]]"
   - "[[concepts/_index]]"
   - "[[Compounding Knowledge]]"
+  - "[[lint-report-2026-06-08]]"
 ---
 
 # Wiki Dashboard
@@ -65,4 +66,16 @@ TABLE verdict FROM "wiki/comparisons" SORT updated DESC
 
 ```dataview
 TABLE author, date_published, updated FROM "wiki/sources" WHERE type = "source" SORT updated DESC LIMIT 10
+```
+
+### Recent Lint Reports
+
+```dataview
+LIST FROM "wiki/meta" WHERE contains(tags, "lint") SORT updated DESC LIMIT 5
+```
+
+### Orphan Pages
+
+```dataview
+LIST FROM "wiki" WHERE !file.inlinks AND !contains(tags, "meta") SORT updated DESC
 ```

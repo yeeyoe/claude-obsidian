@@ -12,10 +12,10 @@ tags:
   - rankenstein
 status: complete
 related:
-  - "[[Claude Obsidian]]"
+  - "[[claude-obsidian-ecosystem]]"
   - "[[Claude Canvas]]"
   - "[[Rankenstein]]"
-  - "[[Karpathy LLM Wiki Pattern]]"
+  - "[[LLM Wiki Pattern]]"
 decision_date: 2026-04-10
 ---
 

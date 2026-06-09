@@ -17,7 +17,7 @@ related:
   - "[[Hot Cache]]"
   - "[[Andrej Karpathy]]"
   - "[[concepts/_index]]"
-sources:
+sources: []
 ---
 
 # Compounding Knowledge

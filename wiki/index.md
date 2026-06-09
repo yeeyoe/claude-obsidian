@@ -79,6 +79,14 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ---
 
+## References
+
+- [[methodology-modes]] — quick decision tree for LYT / PARA / Zettelkasten / Generic vault modes
+- [[transport-fallback]] — transport layer decision tree (CLI → MCP → filesystem)
+- [[retrieval-benchmark-v1.7]] — v1.7 hybrid retrieval benchmark corpus (50 queries)
+
+---
+
 ## Decisions
 
 - [[2026-04-14-community-cta-rollout]] - Skool community CTA footer added to 6 skill repos with per-tool frequency rules (status: active)

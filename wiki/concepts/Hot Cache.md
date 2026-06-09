@@ -20,7 +20,7 @@ related:
   - "[[index]]"
   - "[[hot]]"
   - "[[concepts/_index]]"
-sources:
+sources: []
 ---
 
 # Hot Cache

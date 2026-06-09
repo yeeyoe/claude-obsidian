@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "e477c28c260729f1",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "850d475e0cd8f6d2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "wiki/Wiki Map.canvas",
+                "viewState": {
+                  "x": -44.34567303804128,
+                  "y": 451.979672428038,
+                  "zoom": -1.8774125923397904
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Wiki Map"
             }
           }
         ]
@@ -40,7 +47,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -177,15 +184,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
     }
   },
-  "active": "a31de1b302cdc5cf",
-  "lastOpenFiles": []
+  "active": "850d475e0cd8f6d2",
+  "lastOpenFiles": [
+    "wiki/Wiki Map.md",
+    "wiki/Wiki Map.canvas",
+    "README.md",
+    "用法.md",
+    "wiki/entities/Rankenstein.md",
+    "wiki/entities/Claude Canvas.md",
+    "assets/diagrams/vault-flow.svg",
+    "wiki/concepts/E-commerce SEO.md",
+    "assets/social-preview.png",
+    "assets/diagrams/multi-writer-locking.svg",
+    "assets/diagrams/hybrid-retrieval.svg",
+    "wiki/canvases/claude-obsidian-presentation.canvas",
+    "wiki/meta/overview.canvas",
+    "wiki/meta/lint-report-2026-06-08.md",
+    "wiki/canvases/youtube-explainer.canvas",
+    "wiki/canvases/welcome.canvas"
+  ]
 }

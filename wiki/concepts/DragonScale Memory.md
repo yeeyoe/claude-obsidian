@@ -16,13 +16,13 @@ tags:
   - memory
   - architecture
   - fractal
-status: proposed
+status: developing
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Compounding Knowledge]]"
   - "[[Hot Cache]]"
   - "[[concepts/_index]]"
-sources:
+sources: []
 ---
 
 # DragonScale Memory

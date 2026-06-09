@@ -21,7 +21,7 @@ related:
   - "[[Andrej Karpathy]]"
   - "[[index]]"
   - "[[concepts/_index]]"
-sources:
+sources: []
 ---
 
 # LLM Wiki Pattern

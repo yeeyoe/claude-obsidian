@@ -15,7 +15,7 @@ related:
   - "[[LLM Wiki Pattern]]"
   - "[[Compounding Knowledge]]"
   - "[[entities/_index]]"
-sources:
+sources: []
 ---
 
 # Andrej Karpathy
